@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const devs = ['200644160179535872',''];
-var prefix = "!!";
+var prefix = "-";
 const adminprefix = "!!"
 const db = require('quick.db');
 const client = new Discord.Client();   
@@ -335,7 +335,7 @@ coll.first().delete()
 client.on('ready', function(){
   client.user.setStatus("dnd");
     var ms = 40000 ;	
-    var setGame = ['!!help'];	
+    var setGame = ['-help'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -514,8 +514,6 @@ if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send
 『!!embed/يكرر الي تقولو بشكل حلو』
 『!!discrim/كود يضهر لك الاشخاص نفس تاقك』
 『!!emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي』
-『!!support/سيرفر الدعم』
-『!!contact/ارسال اقتراح او لمراسلة صاحب البوت』
 **
   `
 ,`
@@ -2970,7 +2968,7 @@ client.on("guildMemberAdd", member => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' !!help ','Malicious™ | Server ' ];
+    var setGame = [' -help ','Luxe™ | Server ' ];
     var i = -1;
     var j = 0;
     setInterval(function (){
